@@ -1,5 +1,5 @@
 import { NavLink, Link } from "react-router";
-import CrwnLogo from "../../../assets/crown.svg?react";
+import CrwnLogo from "@/assets/crown.svg?react";
 import "./navigation.styles.scss";
 
 const Navigation = () => {
@@ -11,6 +11,9 @@ const Navigation = () => {
       <div className="nav-links-container">
         <NavLink to="/shop" className="nav-link">
           SHOP
+        </NavLink>
+        <NavLink to="/sign-in" className="nav-link">
+          SIGN IN
         </NavLink>
       </div>
     </div>

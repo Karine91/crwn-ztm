@@ -1,4 +1,4 @@
-import Directory from "../../components/directory/Directory";
+import Directory from "@/components/directory/Directory";
 import type { Route } from "./+types/Home";
 
 export function meta() {
